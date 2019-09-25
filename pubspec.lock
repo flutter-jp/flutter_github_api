@@ -40,7 +40,7 @@ packages:
     source: sdk
     version: "0.0.0"
   github:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: github
       url: "https://pub.dartlang.org"
