@@ -1,8 +1,8 @@
 name: flutter_github_api
 description: A Github Api Flutter package.
-version: 0.0.1
-author:
-homepage:
+version: 0.0.3
+author: xiaomo <hupengbest@gmail.com>
+homepage: https://github.com/houko/flutter_github_api
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
