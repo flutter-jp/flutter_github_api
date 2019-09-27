@@ -2,7 +2,6 @@ library flutter_github_api;
 
 export 'package:github/server.dart';
 
-
 /// A Calculator.
 class Calculator {
   /// Returns [value] plus 1.

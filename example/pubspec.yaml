@@ -1,6 +1,6 @@
-name: flutter_github_api
+name: flutter_github_api_example
 description: A Github Api Flutter package, dependendy on github library. it can help us to easy get information from github.
-version: 0.1.6
+version: 0.1.0
 author: xiaomo <hupengbest@gmail.com>
 homepage: https://github.com/houko/flutter_github_api
 
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  github: ^5.2.0
+  flutter_github_api:
 
 dev_dependencies:
   flutter_test:
