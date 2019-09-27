@@ -10,6 +10,6 @@
 
 * improve heath point
 
-## [0.1.7] - 2019/09/27
+## [0.1.8] - 2019/09/27
 
 * add example
