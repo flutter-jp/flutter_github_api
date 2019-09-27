@@ -1,6 +1,6 @@
 name: flutter_github_api
 description: A Github Api Flutter package, dependendy on github library. it can help us to easy get information from github.
-version: 0.1.6
+version: 0.1.7
 author: xiaomo <hupengbest@gmail.com>
 homepage: https://github.com/houko/flutter_github_api
 
@@ -15,7 +15,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
