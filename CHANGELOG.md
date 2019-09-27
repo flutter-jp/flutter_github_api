@@ -10,6 +10,6 @@
 
 * improve heath point
 
-## [0.1.2] - 2019/09/27
+## [0.1.3] - 2019/09/27
 
-* add main file, update readme
+* export index file
