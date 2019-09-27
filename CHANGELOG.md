@@ -5,3 +5,7 @@
 ## [0.0.5] - 2019/09/25
 
 * add MIT license
+
+## [0.1.0] - 2019/09/27
+
+* improve heath point

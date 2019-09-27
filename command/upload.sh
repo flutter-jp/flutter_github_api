@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-flutter pub pub pubulish
+flutter pub pub publish
