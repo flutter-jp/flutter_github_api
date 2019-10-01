@@ -1,8 +1,8 @@
 name: flutter_github_api
 description: A Github Api Flutter package, dependendy on github library. it can help us to easy get information from github.
-version: 0.1.8
+version: 0.1.9
 author: xiaomo <hupengbest@gmail.com>
-homepage: https://github.com/houko/flutter_github_api
+homepage: http://github_api.flutterjapan.com
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
