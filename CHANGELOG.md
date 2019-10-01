@@ -10,6 +10,6 @@
 
 * improve heath point
 
-## [0.1.9] - 2019/09/27
+## [0.1.10] - 2019/09/27
 
 * set custom home page
