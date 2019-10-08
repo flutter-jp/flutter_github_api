@@ -123,6 +123,12 @@ class _MyHomePageState extends State<MyHomePage> {
         content: Text('please '
             'input your username and password'),
       ));
+      GitHub github = createGitHubClient(auth:  Authentication.withToken
+        (''));
+      RepositorySlug slug = RepositorySlug("flutter_jp", "flutter_github_api");
+      IssueRequest issue = IssueRequest();
+      github.issues.create(slug, issue);
+
       return;
     }
     oauth.login(username, password).then((OauthResult<User> result) {

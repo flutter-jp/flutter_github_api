@@ -66,6 +66,20 @@ dependencies:
     }
 ```
 
+3. new issue
+```dart
+    import 'package:flutter_github_api/flutter_github_api.dart';
+    
+    void main() {
+    	// how to get the token please see No2
+      GitHub github = createGitHubClient(auth:  Authentication.withToken(token));
+      RepositorySlug slug = RepositorySlug("flutter_jp", "flutter_github_api");
+      GithubIssueRequest issue = GithubIssueRequest('just a test');
+      github.issues.create(slug, issue);
+    }
+```
+
+
 # image
 ![](image/demo.png)
 
