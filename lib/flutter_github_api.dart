@@ -4,11 +4,9 @@ import 'dart:convert';
 
 import 'package:dio/adapter.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_github_api/entity/result.dart';
 import 'package:github/server.dart';
 
-import 'entity/basic_auth_param.dart';
-import 'entity/github_auth_entity.dart';
+import 'entity/index.dart';
 
 export 'package:github/server.dart';
 

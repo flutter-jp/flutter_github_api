@@ -20,7 +20,7 @@ dependencies:
 
 ```dart
     import 'package:flutter_github_api/flutter_github_api.dart';
-    import 'package:flutter_github_api/entity/result.dart';
+    import 'flutter_github_api/entity/index.dart';
     User user;
 
     login(String username,String password){
@@ -47,7 +47,7 @@ dependencies:
 
 ```dart
   import 'package:flutter_github_api/flutter_github_api.dart';
-  import 'package:flutter_github_api/entity/result.dart';
+  import 'flutter_github_api/entity/index.dart';
   
     String token='';
     getToken(String username,String password){
@@ -69,7 +69,7 @@ dependencies:
 3. new issue
 ```dart
     import 'package:flutter_github_api/flutter_github_api.dart';
-    
+    import 'flutter_github_api/entity/index.dart';
     void main() {
     	// how to get the token please see No2
       GitHub github = createGitHubClient(auth:  Authentication.withToken(token));

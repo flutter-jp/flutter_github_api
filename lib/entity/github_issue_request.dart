@@ -1,4 +1,4 @@
-import 'package:flutter_github_api/flutter_github_api.dart';
+import 'package:github/server.dart';
 
 class GithubIssueRequest extends IssueRequest {
   GithubIssueRequest(String title,

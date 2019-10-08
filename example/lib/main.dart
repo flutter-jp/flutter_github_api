@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_github_api/entity/basic_auth_param.dart';
-import 'package:flutter_github_api/entity/result.dart';
+import 'package:flutter_github_api/entity/oauth_result.dart';
 import 'package:flutter_github_api/flutter_github_api.dart';
 
 void main() => runApp(MyApp());
@@ -123,8 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
         content: Text('please '
             'input your username and password'),
       ));
-      GitHub github = createGitHubClient(auth:  Authentication.withToken
-        (''));
+      GitHub github = createGitHubClient(auth: Authentication.withToken(''));
       RepositorySlug slug = RepositorySlug("flutter_jp", "flutter_github_api");
       IssueRequest issue = IssueRequest();
       github.issues.create(slug, issue);
