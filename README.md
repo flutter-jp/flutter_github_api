@@ -1,5 +1,5 @@
 # flutter github api
-flutter github v3 api library based on github.dart
+flutter github v3 api library based on github.dart   
 [![Pub](https://img.shields.io/pub/v/flutter_github_api.svg)](https://pub.dartlang.org/packages/flutter_github_api)
 
 # api extension
@@ -15,7 +15,7 @@ dependencies:
 
 
 # usage
-1. get token 
+1. third part login
 
 ```dart
     import 'package:flutter_github_api/flutter_github_api.dart';
@@ -71,3 +71,6 @@ dependencies:
 
 # detail 
 please visit [github.dart](https://github.com/SpinlockLabs/github.dart)
+
+# license
+[MIT](LICENSE)
