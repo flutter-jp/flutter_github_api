@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_github_api/entity/basic_auth_param.dart';
+import 'package:flutter_github_api/flutter_github_api.dart';
 
 void main() => runApp(MyApp());
 
@@ -24,6 +26,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  User user;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,16 +39,39 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'there is account ',
+              user.login,
+            ),
+            Text(
+              user.email,
             ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: null,
+        onPressed: userLogin,
         tooltip: 'login',
         child: Icon(Icons.people),
       ),
     );
   }
+
+
+  userLogin(){
+    Auth auth = Auth('Iv1.ed1fc0b75ccc5db4', '74381a929bbd17d6cc9c965af8bb46b2eb563689');
+    Account account = Account('83387856@qq.com', 'hpandlp8187');
+    Oauth.login(auth, account).then((user){
+      setState(() {
+        this.user = user;
+      });
+    });
+  }
+
+
+
+
+
+
+
+
+
 }
