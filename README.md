@@ -1,6 +1,7 @@
 # flutter github api
-flutter github v3 api library based on github.dart   
 [![Pub](https://img.shields.io/pub/v/flutter_github_api.svg)](https://pub.dartlang.org/packages/flutter_github_api)
+
+flutter github v3 api library based on github.dart   
 
 # api extension
 - get authorization
