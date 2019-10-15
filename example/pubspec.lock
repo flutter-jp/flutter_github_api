@@ -54,7 +54,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.2.0+1"
+    version: "0.2.0+2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -63,10 +63,12 @@ packages:
   github:
     dependency: transitive
     description:
-      name: github
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "5.2.0"
+      path: "."
+      ref: HEAD
+      resolved-ref: "269d91edeacc458e0598ed3bf9848399f6897ba8"
+      url: "https://github.com/SpinlockLabs/github.dart.git"
+    source: git
+    version: "5.3.0"
   http:
     dependency: transitive
     description:

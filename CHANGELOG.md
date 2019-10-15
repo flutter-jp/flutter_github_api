@@ -10,7 +10,7 @@
 
 * improve heath point
 
-## [0.2.0+2] - 2019/10/08
+## [0.2.1] - 2019/10/15
 
 * add login api
 * add getToken api
